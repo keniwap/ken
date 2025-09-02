@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Portfolio — [Your Name]</title>
+    <meta name="description" content="Student portfolio of [Your Name] — projects, school history, and interests." />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary">
+        <a class="logo" href="#hello" aria-label="Go to Hello">ESCOPIN</a>
+        <ul class="menu" role="list">
+          <li><a href="#hello">Hello</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" class="main">
+      <!-- 1. Hello -->
+      <section id="hello" class="section hero" aria-labelledby="hello-title">
+        <div class="container hero__content">
+          <div class="hero__text">
+            <h1 id="hello-title" class="headline">Hi, I'm JOHN KEN</h1>
+            <p class="tagline">A student exploring the world of programming.</p>
+            <p class="about__blurb">
+         
+            </p>
+            <ul class="pills" role="list" aria-label="Keywords">
+              <li>Dreamer</li>
+              <li>Problem Solver</li>
+              <li>Coffee Lover</li>
+            </ul>
+          </div>
+          <div class="hero__media" aria-hidden="true">
+            <img class="avatar" src="picart.jpg" alt="Portrait of [Your Name]" />
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. About Me -->
+      <section id="about" class="section" aria-labelledby="about-title">
+        <div class="container">
+                              <h2 id="about-title">ABOUT ME</h2>
+          <div class="about__content">
+            <div class="about__intro">
+              <ol class="timeline" aria-label="Personal information timeline">
+                <li class="timeline__item">
+                
+                  <div class="timeline__content">
+                    <h3 class="timeline__title">Hometown</h3>
+                    <p class="timeline__meta">Bayugo, Jalajala, Rizal</p>
+                  </div>
+                </li>
+                <li class="timeline__item">
+                 
+                  <div class="timeline__content">
+                    <h3 class="timeline__title">Birthday</h3>
+                    <p class="timeline__meta">August 6, 2004 (Leo ♌, Year of the Monkey 🐒)</p>
+                  </div>
+                </li>
+              
+              </ol>
+            </div>
+            
+            <div class="about__interests">
+              <h3 class="interests__title">What I Love</h3>
+              <div class="interests__grid">
+                <div class="interest__item">
+                  <div class="interest__icon">🎮</div>
+                  <div class="interest__content">
+                    <h4>Gaming</h4>
+                    <p>I like playing games most of the time.</p>
+                  </div>
+                </div>
+                <div class="interest__item">
+                  <div class="interest__icon">🎶</div>
+                  <div class="interest__content">
+                    <h4>Music</h4>
+                    <p>I loved listening to music.</p>
+                  </div>
+                </div>
+                <div class="interest__item">
+                  <div class="interest__icon">☕</div>
+                  <div class="interest__content">
+                    <h4>Coffee</h4>
+                    <p>I'll never say no to a good cup</p>
+                  </div>
+                </div>
+                <div class="interest__item">
+                  <div class="interest__icon">📺</div>
+                  <div class="interest__content">
+                    <h4>Dramas</h4>
+                    <p>J-dramas and K-dramas enthusiast</p>
+                  </div>
+                </div>
+                <div class="interest__item">
+                  <div class="interest__icon">📖</div>
+                  <div class="interest__content">
+                    <h4>Reading</h4>
+                    <p>Love reading manhwa and manga</p>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+            
+            <p class="passion__text">
+              When I like something, I give it my best effort to make sure it turns out well. This passion keeps me focused, motivated, and excited to learn new skills. I'm driven by my desire to improve and create more because I believe every skill I learn is a step closer to becoming the person I aspire to be. My ultimate goal is to become a programmer whose work stands out for its quality and creativity.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Projects -->
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="container">
+          <h2 id="projects-title">Projects</h2>
+          <div class="grid projects__grid">
+            <article class="card project">
+              <div class="card__media">
+                <img src="10.jpg" alt="Enrollment System" />
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Enrollment System</h3>
+                <p class="card__text">My first system developed during senior high school using Visual Basic for PhilTech. This project helped me develop problem-solving skills and sparked my passion for software development.</p>
+              </div>
+            </article>
+            <article class="card project">
+              <div class="card__media">
+                <img src="11.jpg" alt="Pizza Ordering System" />
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Pizza Ordering System</h3>
+                <p class="card__text">A C# kiosk-style ordering system inspired by fast-food chains like Jollibee and McDonald's. Features 6 kinds of pizza and various beverages with a user-friendly interface for seamless ordering.</p>
+              </div>
+            </article>
+            <article class="card project">
+              <div class="card__media">
+                <img src="12.jpg" alt="Computer Monitoring System" />
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Computer Monitoring System</h3>
+                <p class="card__text">Developed a C# system to track and monitor computer users at specific times for Laguna State Polytechnic University CCS. Handled challenges with user input validation and false information detection.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+   
+
+    <script src="script.js" defer></script>
+  </body>
+  </html>
+
+
